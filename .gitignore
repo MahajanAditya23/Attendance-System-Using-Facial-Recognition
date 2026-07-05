@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pkl
+*.yml
+.env
+.vscode/
+.idea/
+
+# Ignore training images
+TrainingImage/
+
+# Ignore attendance records if generated
+data/Attendance/*.csv
+
+# Ignore trained model
+TrainingImageLabel/trainner.yml
